@@ -1,0 +1,218 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  background-color: #E5E4E2; }
+
+.navbar {
+  background-color: LightSeaGreen;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  border-radius: 0px; }
+
+#navbar-collapse-1 .nav, #navbar-collapse-2 .nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px; }
+  #navbar-collapse-1 .nav li, #navbar-collapse-2 .nav li {
+    margin: 14px;
+    font-size: 18px; }
+    #navbar-collapse-1 .nav li a, #navbar-collapse-2 .nav li a {
+      color: white;
+      padding: 6px; }
+  #navbar-collapse-1 .nav a:hover, #navbar-collapse-2 .nav a:hover {
+    color: #ff599b;
+    background-color: #ccffff;
+    border-radius: 3px; }
+
+#navigation {
+  background-color: black; }
+  #navigation img, #navigation a h4 {
+    margin: 12px; }
+  #navigation a {
+    text-decoration: none; }
+    #navigation a h4 {
+      text-align: center;
+      color: white; }
+
+#figure {
+  background-color: white;
+  text-align: center;
+  color: black;
+  margin: 8px;
+  padding: 8px;
+  opacity: 0.7;
+  filter: alpha(opacity=70); }
+  #figure .name {
+    color: LightSeaGreen; }
+  #figure .img-responsive {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 8px;
+    transition-duration: 3s; }
+
+#figure:hover {
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+#figure .img-responsive:hover {
+  transform: rotate(-15deg);
+  /*image rotates -15 deg */
+  transition-duration: 3s;
+  /* images tilts */ }
+
+#lists {
+  list-style-type: none;
+  margin: 30px;
+  height: auto; }
+  #lists li {
+    color: LightSeaGreen;
+    padding: 5px;
+    position: relative;
+    opacity: 0.6;
+    filter: alpha(opacity=60); }
+  #lists li:hover {
+    color: red;
+    opacity: 1;
+    filter: alpha(opacity=100); }
+  #lists .image {
+    display: none;
+    position: static;
+    left: 40%;
+    z-index: 99; }
+  #lists span:hover + .image {
+    display: block;
+    /*margin:-25px;*/ }
+
+.facts {
+  margin: 12px;
+  list-style-type: none; }
+  .facts li {
+    padding: 5px;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    text-decoration: none; }
+    .facts li a {
+      text-decoration: none;
+      color: LightSeaGreen; }
+    .facts li a:hover {
+      color: red; }
+  .facts li:hover {
+    background-color: white;
+    opacity: 1;
+    filter: alpha(opacity=100); }
+
+.carousel-inner > .item > img, #navigation a .carousel-inner > .item > h4 {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+  position: relative; }
+
+.carousel-inner > .item > h3 {
+  color: white;
+  position: absolute;
+  left: 34%;
+  bottom: 20%;
+  font-size: 250%; }
+
+/*# sourceMappingURL=enhance.css.map */
+.front {
+  width: 50%;
+  margin: auto;
+  text-decoration: none; }
+
+.header #logo {
+  width: 25%;
+  height: 25%; }
+.header #gear {
+  float: right;
+  width: 7%;
+  height: 7%;
+  margin-top: 15px; }
+
+#tiles {
+  width: 100%; }
+
+.content {
+  position: relative;
+  width: 25%;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px; }
+
+.contentImg {
+  width: 100%; }
+
+.contentText {
+  color: green;
+  font-size: 1.5vw;
+  overflow: hidden;
+  position: absolute;
+  left: 4%;
+  top: 4%; }
+
+footer {
+  width: 60%; }
+
+footer img, footer #navigation a h4, #navigation a footer h4 {
+  width: 166.5%; }
+
+.back {
+  width: 50%;
+  margin: 0px auto;
+  position: relative;
+  background-color: white;
+  text-decoration: none; }
+  .back header h1 {
+    margin: 4%;
+    font-size: 2vw;
+    display: inline-block; }
+  .back header #done {
+    display: inline-block;
+    float: right;
+    margin: 3%;
+    font-size: 1.4vw;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: LightSeaGreen;
+    border-radius: 6px;
+    border: 0px;
+    color: white; }
+
+#text {
+  margin: 20px;
+  font-size: 1.8vw; }
+
+#tilesList {
+  list-style-type: none; }
+
+.check {
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.list {
+  font-size: 1.50vw; }
+
+.stack {
+  float: right;
+  padding-right: 20px; }
+
+.footer {
+  background-color: #234152;
+  width: 100%;
+  height: auto; }
+
+.footer input {
+  background-color: LightSeaGreen;
+  border-radius: 6px;
+  border: 0px;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%; }
+
+/*# sourceMappingURL=enhance.css.map */
